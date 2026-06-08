@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-08T02:14:05
+Generated: 2026-06-08T03:30:33
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -58,7 +58,7 @@ The real values are not stored here. Re-add them manually when needed:
 ## Last sync summary
 
 Copied files: 985
-Skipped files: 499
+Skipped files: 500
 
 ### Skipped examples / reasons
 
@@ -195,6 +195,7 @@ Skipped files: 499
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/agentic-os-operator-console.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/templates/agentic-program-template.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-portable-backup/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-portable-backup/references/github-mirror-cron-pattern.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-portable-backup/references/hermes-mirror-backup-pattern.md` (sensitive-content)
 - `skills/autonomous-ai-agents/codex/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-agent/SKILL.md` (sensitive-content)
@@ -261,4 +262,3 @@ Skipped files: 499
 - `profiles/gungor/skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-template.tex` (sensitive-content)
 - `profiles/gungor/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.tex` (sensitive-content)
 - `profiles/gungor/skills/research/research-paper-writing/templates/iclr2026/natbib.sty` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.pdf` (binary-ext)
