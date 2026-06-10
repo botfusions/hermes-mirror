@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-08T09:30:17
+Generated: 2026-06-10T09:30:39
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 985
-Skipped files: 501
+Copied files: 1993
+Skipped files: 1072
 
 ### Skipped examples / reasons
 
@@ -90,6 +90,7 @@ Skipped files: 501
 - `skills/data-science/jupyter-live-kernel/SKILL.md` (sensitive-content)
 - `skills/software-development/plan/SKILL.md` (sensitive-content)
 - `skills/software-development/secrets-management/SKILL.md` (sensitive-name)
+- `skills/software-development/secrets-management/references/remote-docker-agent-audit.md` (sensitive-name)
 - `skills/software-development/secrets-management/references/composio-mcp-secrets.md` (sensitive-name)
 - `skills/software-development/hermes-agent-skill-authoring/SKILL.md` (sensitive-content)
 - `skills/software-development/python-debugpy/SKILL.md` (sensitive-content)
@@ -120,6 +121,10 @@ Skipped files: 501
 - `skills/mlops/evaluation/lm-evaluation-harness/references/api-evaluation.md` (sensitive-content)
 - `skills/mlops/evaluation/weights-and-biases/SKILL.md` (sensitive-content)
 - `skills/mlops/evaluation/weights-and-biases/references/artifacts.md` (sensitive-content)
+- `skills/business/botfusions-brand-strategy/SKILL.md` (sensitive-content)
+- `skills/business/botfusions-brand-strategy/references/jale-cmo-intake.md` (sensitive-content)
+- `skills/business/botfusions-brand-strategy/references/botfusions-brand-context.md` (sensitive-content)
+- `skills/business/botfusions-brand-strategy/references/omnisocials-publishing.md` (sensitive-content)
 - `skills/github/github-auth/SKILL.md` (sensitive-content)
 - `skills/github/github-auth/scripts/gh-env.sh` (sensitive-content)
 - `skills/github/github-repo-management/SKILL.md` (sensitive-content)
@@ -130,6 +135,8 @@ Skipped files: 501
 - `skills/github/github-code-review/SKILL.md` (sensitive-content)
 - `skills/github/github-issues/SKILL.md` (sensitive-content)
 - `skills/github/gungor-github-mail-ops/SKILL.md` (sensitive-content)
+- `skills/github/gungor-github-mail-ops/references/cron-output-size-and-broken-pipe.md` (sensitive-content)
+- `skills/github/gungor-github-mail-ops/references/safe-fix-boundaries.md` (sensitive-content)
 - `skills/github/gungor-github-mail-ops/references/full-operational-check.md` (sensitive-content)
 - `skills/note-taking/obsidian/SKILL.md` (sensitive-content)
 - `skills/note-taking/obsidian/references/hermes-memory-wiki.md` (sensitive-content)
@@ -187,13 +194,24 @@ Skipped files: 501
 - `skills/creative/architecture-diagram/templates/template.html` (sensitive-content)
 - `skills/creative/sketch/SKILL.md` (sensitive-content)
 - `skills/claude-os/SKILL.md` (sensitive-content)
+- `skills/claude-os/references/claude-code-zai-bridge.md` (sensitive-content)
 - `skills/claude-os/references/launchd-dream-operator-setup.md` (sensitive-content)
 - `skills/email/himalaya/SKILL.md` (sensitive-content)
 - `skills/email/himalaya/references/configuration.md` (sensitive-content)
 - `skills/autonomous-ai-agents/claude-code/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-local-skill-injection.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-approval-softening.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-folder-owner-agent.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-mcp-memory-integration/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-mcp-memory-integration/references/lemma-hermes-integration.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/closed-loop-agent-fleet.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/agentic-os-operator-console.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/templates/agentic-program-template.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-operating-practices/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-operating-practices/references/openrouter-credit-check.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-operating-practices/references/provider-integration-checklist.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-portable-backup/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-portable-backup/references/github-mirror-cron-pattern.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-portable-backup/references/hermes-mirror-backup-pattern.md` (sensitive-content)
@@ -201,6 +219,7 @@ Skipped files: 501
 - `skills/autonomous-ai-agents/hermes-agent/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-agent/references/webhooks.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hayri-analysis-router/references/botfusions-brand-context.md` (sensitive-content)
 - `skills/autonomous-ai-agents/connected-account-agents/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/connected-account-agents/references/composio-gmail-github-jules-sentinel.md` (sensitive-content)
 - `skills/autonomous-ai-agents/opencode/SKILL.md` (sensitive-content)
@@ -227,38 +246,19 @@ Skipped files: 501
 - `skills/productivity/google-workspace/scripts/google_api.py` (sensitive-content)
 - `skills/productivity/google-workspace/scripts/setup.py` (sensitive-content)
 - `skills/media/gif-search/SKILL.md` (sensitive-content)
+- `pantheon/personas/claude-code.yaml` (sensitive-content)
 - `pantheon/personas/philosopher.yaml` (sensitive-content)
 - `memories/MEMORY.md` (sensitive-content)
 - `memories/USER.md` (sensitive-content)
 - `cron/jobs.json` (sensitive-content)
+- `cron/output/3f54bb549795/2026-06-08_09-30-19.md` (sensitive-content)
 - `cron/output/3f54bb549795/2026-06-08_03-30-35.md` (sensitive-content)
 - `cron/output/a2ff23b0029d/2026-06-07_21-01-45.md` (sensitive-content)
+- `cron/output/a2ff23b0029d/2026-06-09_20-00-48.md` (sensitive-content)
 - `cron/output/a2ff23b0029d/2026-06-07_21-10-13.md` (sensitive-content)
+- `cron/output/a2ff23b0029d/2026-06-08_20-00-31.md` (sensitive-content)
 - `cron/output/a2ff23b0029d/2026-06-07_18-20-43.md` (sensitive-content)
 - `cron/output/a2ff23b0029d/2026-06-07_21-03-32.md` (sensitive-content)
+- `cron/output/a2ff23b0029d/2026-06-08_10-19-34.md` (sensitive-content)
 - `cron/output/a2ff23b0029d/2026-06-07_21-00-09.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_21-06-18.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_20-07-29.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_18-21-52.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_21-17-51.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_20-56-15.md` (sensitive-content)
-- `profiles/gungor/SOUL.md` (sensitive-content)
-- `profiles/gungor/skills/.usage.json` (sensitive-content)
-- `profiles/gungor/skills/apple/macos-computer-use/SKILL.md` (sensitive-content)
-- `profiles/gungor/skills/research/polymarket/SKILL.md` (sensitive-content)
-- `profiles/gungor/skills/research/polymarket/references/api-endpoints.md` (sensitive-content)
-- `profiles/gungor/skills/research/polymarket/scripts/polymarket.py` (sensitive-content)
-- `profiles/gungor/skills/research/llm-wiki/SKILL.md` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/SKILL.md` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/references/experiment-patterns.md` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/references/writing-guide.md` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/references/autoreason-methodology.md` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/references/citation-workflow.md` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.pdf` (binary-ext)
-- `profiles/gungor/skills/research/research-paper-writing/templates/colm2025/colm2025_conference.tex` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/templates/colm2025/natbib.sty` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/templates/icml2026/icml_numpapers.pdf` (binary-ext)
-- `profiles/gungor/skills/research/research-paper-writing/templates/icml2026/fancyhdr.sty` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/templates/icml2026/example_paper.pdf` (binary-ext)
-- `profiles/gungor/skills/research/research-paper-writing/templates/aaai2026/aaai2026-unified-template.tex` (sensitive-content)
-- `profiles/gungor/skills/research/research-paper-writing/templates/iclr2026/iclr2026_conference.tex` (sensitive-content)
+- `cron/output/a2ff23b0029d/2026-06-08_14-07-08.md` (sensitive-content)
