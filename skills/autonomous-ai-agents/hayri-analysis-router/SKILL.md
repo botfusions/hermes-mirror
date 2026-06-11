@@ -33,6 +33,8 @@ hayri-report --title "<optional inferred Turkish title>" <url-or-repo> [more-lin
 
 If the user gave no title, omit `--title`; Hayri will infer one.
 
+**Timeout:** Hayri's full research + report write cycle (clone → inspect → search → write → notify) can take 60–120s for repos with substantial READMEs or when web search backends are slow. Default to `timeout=300` — `hayri-report` is a foreground command that returns when done, not a fixed-duration job. The 30s default is too tight and will interrupt mid-research.
+
 ## Multi-intent handling
 
 If the same user message also asks the main assistant to act (`kur`, `yükle`, `entegre et`, `düzelt`, `çalıştır`, `test et`), do both:

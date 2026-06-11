@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-10T09:30:39
+Generated: 2026-06-11T09:30:42
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 1993
-Skipped files: 1072
+Copied files: 2077
+Skipped files: 1109
 
 ### Skipped examples / reasons
 
@@ -125,6 +125,7 @@ Skipped files: 1072
 - `skills/business/botfusions-brand-strategy/references/jale-cmo-intake.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/references/botfusions-brand-context.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/references/omnisocials-publishing.md` (sensitive-content)
+- `skills/business/botfusions-brand-strategy/references/omni-socials-publishing.md` (sensitive-content)
 - `skills/github/github-auth/SKILL.md` (sensitive-content)
 - `skills/github/github-auth/scripts/gh-env.sh` (sensitive-content)
 - `skills/github/github-repo-management/SKILL.md` (sensitive-content)
@@ -193,6 +194,9 @@ Skipped files: 1072
 - `skills/creative/p5js/references/export-pipeline.md` (sensitive-content)
 - `skills/creative/architecture-diagram/templates/template.html` (sensitive-content)
 - `skills/creative/sketch/SKILL.md` (sensitive-content)
+- `skills/.hub/index-cache/openai_skills_skills_.curated_.json` (sensitive-content)
+- `skills/.hub/index-cache/lobehub_index.json` (sensitive-content)
+- `skills/.hub/index-cache/claude_marketplace_anthropics_skills.json` (sensitive-content)
 - `skills/claude-os/SKILL.md` (sensitive-content)
 - `skills/claude-os/references/claude-code-zai-bridge.md` (sensitive-content)
 - `skills/claude-os/references/launchd-dream-operator-setup.md` (sensitive-content)
@@ -200,6 +204,7 @@ Skipped files: 1072
 - `skills/email/himalaya/references/configuration.md` (sensitive-content)
 - `skills/autonomous-ai-agents/claude-code/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/hakan-profile.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-local-skill-injection.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-approval-softening.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-folder-owner-agent.md` (sensitive-content)
@@ -212,6 +217,9 @@ Skipped files: 1072
 - `skills/autonomous-ai-agents/hermes-operating-practices/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-operating-practices/references/openrouter-credit-check.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-operating-practices/references/provider-integration-checklist.md` (sensitive-content)
+- `skills/autonomous-ai-agents/ai-research-agent/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/ai-research-agent/references/xai-grok-provider.md` (sensitive-content)
+- `skills/autonomous-ai-agents/ai-research-agent/references/hakan-cron-config.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-portable-backup/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-portable-backup/references/github-mirror-cron-pattern.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-portable-backup/references/hermes-mirror-backup-pattern.md` (sensitive-content)
@@ -219,6 +227,7 @@ Skipped files: 1072
 - `skills/autonomous-ai-agents/hermes-agent/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-agent/references/webhooks.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-agent/references/ecc-improvements.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hayri-analysis-router/references/botfusions-brand-context.md` (sensitive-content)
 - `skills/autonomous-ai-agents/connected-account-agents/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/connected-account-agents/references/composio-gmail-github-jules-sentinel.md` (sensitive-content)
@@ -251,14 +260,5 @@ Skipped files: 1072
 - `memories/MEMORY.md` (sensitive-content)
 - `memories/USER.md` (sensitive-content)
 - `cron/jobs.json` (sensitive-content)
+- `cron/output/3f54bb549795/2026-06-10_09-30-41.md` (sensitive-content)
 - `cron/output/3f54bb549795/2026-06-08_09-30-19.md` (sensitive-content)
-- `cron/output/3f54bb549795/2026-06-08_03-30-35.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_21-01-45.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-09_20-00-48.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_21-10-13.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-08_20-00-31.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_18-20-43.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_21-03-32.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-08_10-19-34.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-07_21-00-09.md` (sensitive-content)
-- `cron/output/a2ff23b0029d/2026-06-08_14-07-08.md` (sensitive-content)
