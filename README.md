@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-11T09:30:42
+Generated: 2026-06-12T09:30:44
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2077
-Skipped files: 1109
+Copied files: 2095
+Skipped files: 1121
 
 ### Skipped examples / reasons
 
@@ -68,6 +68,7 @@ Skipped files: 1109
 - `skills/research/polymarket/SKILL.md` (sensitive-content)
 - `skills/research/polymarket/references/api-endpoints.md` (sensitive-content)
 - `skills/research/polymarket/scripts/polymarket.py` (sensitive-content)
+- `skills/research/notebooklm/SKILL.md` (sensitive-content)
 - `skills/research/llm-wiki/SKILL.md` (sensitive-content)
 - `skills/research/research-paper-writing/SKILL.md` (sensitive-content)
 - `skills/research/research-paper-writing/references/experiment-patterns.md` (sensitive-content)
@@ -215,8 +216,10 @@ Skipped files: 1109
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/agentic-os-operator-console.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/templates/agentic-program-template.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-operating-practices/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-operating-practices/references/telegram-gateway-conflict.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-operating-practices/references/openrouter-credit-check.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-operating-practices/references/provider-integration-checklist.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-operating-practices/references/fallback-provider-operations.md` (sensitive-content)
 - `skills/autonomous-ai-agents/ai-research-agent/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/ai-research-agent/references/xai-grok-provider.md` (sensitive-content)
 - `skills/autonomous-ai-agents/ai-research-agent/references/hakan-cron-config.md` (sensitive-content)
@@ -228,6 +231,7 @@ Skipped files: 1109
 - `skills/autonomous-ai-agents/hermes-agent/references/webhooks.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-agent/references/ecc-improvements.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hayri-analysis-router/references/glm-47-web-research-routing.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hayri-analysis-router/references/botfusions-brand-context.md` (sensitive-content)
 - `skills/autonomous-ai-agents/connected-account-agents/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/connected-account-agents/references/composio-gmail-github-jules-sentinel.md` (sensitive-content)
@@ -258,7 +262,3 @@ Skipped files: 1109
 - `pantheon/personas/claude-code.yaml` (sensitive-content)
 - `pantheon/personas/philosopher.yaml` (sensitive-content)
 - `memories/MEMORY.md` (sensitive-content)
-- `memories/USER.md` (sensitive-content)
-- `cron/jobs.json` (sensitive-content)
-- `cron/output/3f54bb549795/2026-06-10_09-30-41.md` (sensitive-content)
-- `cron/output/3f54bb549795/2026-06-08_09-30-19.md` (sensitive-content)

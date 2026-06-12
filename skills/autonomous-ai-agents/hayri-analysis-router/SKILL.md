@@ -16,12 +16,12 @@ Use this skill when the user pastes one or more URLs/GitHub repo links and says 
 
 ## Trigger
 
-If the user's message contains:
+If the user's message contains either:
 
-- one or more links (`http://`, `https://`, GitHub repo URL, or `owner/repo`), and
-- the Turkish analysis intent word `analiz` or an obvious equivalent,
+- one or more links (`http://`, `https://`, GitHub repo URL, or `owner/repo`) plus the Turkish analysis intent word `analiz` or an obvious equivalent, OR
+- a general internet/web research/search request where the main assistant would otherwise use `web_search`, `web_extract`, or current web lookup,
 
-then do not ask for clarification. Route the task to Hayri.
+then do not ask for clarification. Route the research task to Hayri.
 
 ## Action
 
@@ -57,9 +57,13 @@ Hayri saves reports under:
 Hayri profile uses:
 
 ```text
-provider: xai
-model: grok-4.3
+provider: zai
+model: glm-4.7
 ```
+
+This replaces the earlier DeepSeek/XAI routing for Hayri because the user prefers GLM for internet research tasks.
+
+Implementation details and verification checklist: `references/glm-47-web-research-routing.md`.
 
 ## Completion
 

@@ -195,6 +195,12 @@ rm -f /tmp/nlm_login.py /tmp/nlm_login_output.txt /tmp/nlm_save_signal
 | Rate limiting | Google throttle | Wait 5-10 min, retry |
 | Download fails | Generation incomplete | Check `artifact list` for status |
 
+## Pipeline Audit Notes
+
+- Auth presence is not proof of pipeline integration. When checking whether an agent such as Jale uses NotebookLM, inspect cron jobs, profile directories, wiki/runbook reports, and pipeline scripts for `notebooklm` references before concluding it is wired in.
+- If only VPS auth/cookies are known to exist, verify remote container files with SSH/Docker access or a dedicated read-only inspection script; Coolify health checks alone do not expose pipeline code or crontabs.
+- See `references/jale-pipeline-audit.md` for the session-specific Jale check pattern.
+
 ## Known Limitations
 
 - Audio, video, quiz, flashcard, infographic, and slide deck generation may fail due to Google rate limits
