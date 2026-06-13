@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-12T09:30:44
+Generated: 2026-06-13T09:30:06
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,11 +57,12 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2095
-Skipped files: 1121
+Copied files: 2111
+Skipped files: 1138
 
 ### Skipped examples / reasons
 
+- `SOUL.md` (sensitive-content)
 - `config.yaml` (sensitive-content)
 - `skills/.usage.json` (sensitive-content)
 - `skills/apple/macos-computer-use/SKILL.md` (sensitive-content)
@@ -208,6 +209,7 @@ Skipped files: 1121
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/hakan-profile.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-local-skill-injection.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-approval-softening.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/delegated-profile-skill-update.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-folder-owner-agent.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-mcp-memory-integration/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-mcp-memory-integration/references/lemma-hermes-integration.md` (sensitive-content)
@@ -219,6 +221,7 @@ Skipped files: 1121
 - `skills/autonomous-ai-agents/hermes-operating-practices/references/telegram-gateway-conflict.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-operating-practices/references/openrouter-credit-check.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-operating-practices/references/provider-integration-checklist.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-operating-practices/references/telegram-flood-control-heartbeat.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-operating-practices/references/fallback-provider-operations.md` (sensitive-content)
 - `skills/autonomous-ai-agents/ai-research-agent/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/ai-research-agent/references/xai-grok-provider.md` (sensitive-content)
@@ -259,6 +262,3 @@ Skipped files: 1121
 - `skills/productivity/google-workspace/scripts/google_api.py` (sensitive-content)
 - `skills/productivity/google-workspace/scripts/setup.py` (sensitive-content)
 - `skills/media/gif-search/SKILL.md` (sensitive-content)
-- `pantheon/personas/claude-code.yaml` (sensitive-content)
-- `pantheon/personas/philosopher.yaml` (sensitive-content)
-- `memories/MEMORY.md` (sensitive-content)
