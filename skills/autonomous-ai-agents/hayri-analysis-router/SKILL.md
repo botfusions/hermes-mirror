@@ -75,6 +75,16 @@ telegram:Cenk Tokgöz (dm)
 
 and the main assistant should report the saved absolute Markdown path back to the user when available.
 
+### Notification fallback
+
+If Hayri creates the Markdown report but Telegram target resolution fails, do **not** treat the whole analysis as failed. The main assistant should:
+
+1. Verify the saved report path exists/read it back if possible.
+2. Deliver a concise Turkish summary in the current chat.
+3. Mention that the report was saved and that only the Telegram notification failed.
+
+This preserves the useful artifact while avoiding duplicate reruns just to fix notification delivery.
+
 ## Safety
 
 Hayri is read/report-only. Never perform GitHub write actions such as issue/comment/approve/merge/push/workflow dispatch unless the user explicitly approves a separate write action.
