@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-14T09:30:48
+Generated: 2026-06-15T09:30:29
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2130
-Skipped files: 1154
+Copied files: 2494
+Skipped files: 1378
 
 ### Skipped examples / reasons
 
@@ -179,6 +179,7 @@ Skipped files: 1154
 - `skills/software-development/secrets-management/references/composio-mcp-secrets.md` (sensitive-name)
 - `skills/mlops/evaluation/DESCRIPTION.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/SKILL.md` (sensitive-content)
+- `skills/business/botfusions-brand-strategy/references/botfusions-shorts-draft-pipeline.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/references/jale-cmo-intake.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/references/botfusions-brand-context.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/references/omnisocials-publishing.md` (sensitive-content)
@@ -245,10 +246,12 @@ Skipped files: 1154
 - `skills/.hub/index-cache/claude_marketplace_anthropics_skills.json` (sensitive-content)
 - `skills/claude-os/SKILL.md` (sensitive-content)
 - `skills/claude-os/references/claude-code-zai-bridge.md` (sensitive-content)
+- `skills/claude-os/references/claude-code-headless-auth.md` (sensitive-content)
 - `skills/claude-os/references/launchd-dream-operator-setup.md` (sensitive-content)
 - `skills/email/himalaya/SKILL.md` (sensitive-content)
 - `skills/email/himalaya/references/configuration.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-orchestration/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-orchestration/references/worker-shell-script-review.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/hakan-profile.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-local-skill-injection.md` (sensitive-content)
@@ -259,6 +262,3 @@ Skipped files: 1154
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/closed-loop-agent-fleet.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/agentic-os-operator-console.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/templates/agentic-program-template.md` (sensitive-content)
-- `skills/autonomous-ai-agents/ai-research-agent/SKILL.md` (sensitive-content)
-- `skills/autonomous-ai-agents/ai-research-agent/references/xai-grok-provider.md` (sensitive-content)
-- `skills/autonomous-ai-agents/ai-research-agent/references/hakan-cron-config.md` (sensitive-content)
