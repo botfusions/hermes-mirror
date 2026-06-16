@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-15T09:30:29
+Generated: 2026-06-16T09:30:31
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2494
-Skipped files: 1378
+Copied files: 2511
+Skipped files: 1384
 
 ### Skipped examples / reasons
 
