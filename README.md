@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-16T09:30:31
+Generated: 2026-06-17T09:30:24
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2511
-Skipped files: 1384
+Copied files: 2530
+Skipped files: 1398
 
 ### Skipped examples / reasons
 
@@ -177,6 +177,7 @@ Skipped files: 1384
 - `skills/software-development/secrets-management/SKILL.md` (sensitive-name)
 - `skills/software-development/secrets-management/references/remote-docker-agent-audit.md` (sensitive-name)
 - `skills/software-development/secrets-management/references/composio-mcp-secrets.md` (sensitive-name)
+- `skills/software-development/simplify-code/SKILL.md` (sensitive-content)
 - `skills/mlops/evaluation/DESCRIPTION.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/SKILL.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/references/botfusions-shorts-draft-pipeline.md` (sensitive-content)
@@ -261,4 +262,3 @@ Skipped files: 1384
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/closed-loop-agent-fleet.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/agentic-os-operator-console.md` (sensitive-content)
-- `skills/autonomous-ai-agents/agentic-self-improvement-loop/templates/agentic-program-template.md` (sensitive-content)
