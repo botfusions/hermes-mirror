@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-17T09:30:24
+Generated: 2026-06-18T09:30:20
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2530
-Skipped files: 1398
+Copied files: 2907
+Skipped files: 1616
 
 ### Skipped examples / reasons
 
@@ -259,6 +259,6 @@ Skipped files: 1398
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-approval-softening.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/delegated-profile-skill-update.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-folder-owner-agent.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/zai-glm-provider-quirks.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/SKILL.md` (sensitive-content)
 - `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/closed-loop-agent-fleet.md` (sensitive-content)
-- `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/agentic-os-operator-console.md` (sensitive-content)
