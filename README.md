@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-18T09:30:20
+Generated: 2026-06-19T09:30:06
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2907
-Skipped files: 1616
+Copied files: 2944
+Skipped files: 1632
 
 ### Skipped examples / reasons
 
@@ -199,6 +199,7 @@ Skipped files: 1616
 - `skills/red-teaming/godmode/scripts/auto_jailbreak.py` (sensitive-content)
 - `skills/red-teaming/godmode/scripts/godmode_race.py` (sensitive-content)
 - `skills/red-teaming/godmode/scripts/parseltongue.py` (sensitive-content)
+- `skills/creative/ui-ux-pro-max/SKILL.md` (sensitive-content)
 - `skills/creative/comfyui/SKILL.md` (sensitive-content)
 - `skills/creative/comfyui/references/official-cli.md` (sensitive-content)
 - `skills/creative/comfyui/references/template-integrity.md` (sensitive-content)
@@ -243,8 +244,10 @@ Skipped files: 1616
 - `skills/creative/pretext/templates/donut-orbit.html` (sensitive-content)
 - `skills/creative/p5js/references/export-pipeline.md` (sensitive-content)
 - `skills/.hub/index-cache/openai_skills_skills_.curated_.json` (sensitive-content)
+- `skills/.hub/index-cache/NVIDIA_skills_skills_.json` (sensitive-content)
 - `skills/.hub/index-cache/lobehub_index.json` (sensitive-content)
 - `skills/.hub/index-cache/claude_marketplace_anthropics_skills.json` (sensitive-content)
+- `skills/.hub/index-cache/anthropics_skills_skills_.json` (sensitive-content)
 - `skills/claude-os/SKILL.md` (sensitive-content)
 - `skills/claude-os/references/claude-code-zai-bridge.md` (sensitive-content)
 - `skills/claude-os/references/claude-code-headless-auth.md` (sensitive-content)
@@ -259,6 +262,3 @@ Skipped files: 1616
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-approval-softening.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/delegated-profile-skill-update.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-folder-owner-agent.md` (sensitive-content)
-- `skills/autonomous-ai-agents/coding-agent-profiles/references/zai-glm-provider-quirks.md` (sensitive-content)
-- `skills/autonomous-ai-agents/agentic-self-improvement-loop/SKILL.md` (sensitive-content)
-- `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/closed-loop-agent-fleet.md` (sensitive-content)

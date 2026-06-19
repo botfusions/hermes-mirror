@@ -1,1 +1,25 @@
-{"version": 1, "installed": {}}
+{
+  "version": 1,
+  "installed": {
+    "skill-creator_mrgoonie": {
+      "source": "skills.sh",
+      "identifier": "skills-sh/jackspace/claudeskillz/skill-creator",
+      "trust_level": "community",
+      "scan_verdict": "safe",
+      "content_hash": "sha256:5aaae35d2fce8d49",
+      "install_path": "skill-creator_mrgoonie",
+      "files": [
+        "LICENSE.txt",
+        "SKILL.json",
+        "SKILL.md",
+        "SKILL.md.backup"
+      ],
+      "metadata": {
+        "detail_url": "https://skills.sh/jackspace/claudeskillz/skill-creator",
+        "repo_url": "https://github.com/jackspace/claudeskillz"
+      },
+      "installed_at": "2026-06-18T17:02:35.129986+00:00",
+      "updated_at": "2026-06-18T17:02:35.129991+00:00"
+    }
+  }
+}
