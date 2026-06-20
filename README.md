@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-19T09:30:06
+Generated: 2026-06-20T09:30:06
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2944
-Skipped files: 1632
+Copied files: 2967
+Skipped files: 1647
 
 ### Skipped examples / reasons
 
@@ -200,6 +200,7 @@ Skipped files: 1632
 - `skills/red-teaming/godmode/scripts/godmode_race.py` (sensitive-content)
 - `skills/red-teaming/godmode/scripts/parseltongue.py` (sensitive-content)
 - `skills/creative/ui-ux-pro-max/SKILL.md` (sensitive-content)
+- `skills/creative/ui-ux-pro-max/references/open-design-premium-landing-artifacts.md` (sensitive-content)
 - `skills/creative/comfyui/SKILL.md` (sensitive-content)
 - `skills/creative/comfyui/references/official-cli.md` (sensitive-content)
 - `skills/creative/comfyui/references/template-integrity.md` (sensitive-content)
@@ -261,4 +262,3 @@ Skipped files: 1632
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-local-skill-injection.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-approval-softening.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/delegated-profile-skill-update.md` (sensitive-content)
-- `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-folder-owner-agent.md` (sensitive-content)
