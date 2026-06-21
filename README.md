@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-20T09:30:06
+Generated: 2026-06-21T09:30:17
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2967
-Skipped files: 1647
+Copied files: 2906
+Skipped files: 1632
 
 ### Skipped examples / reasons
 
@@ -171,13 +171,11 @@ Skipped files: 1647
 - `skills/.archive/media/gif-search/SKILL.md` (sensitive-content)
 - `skills/devops/kanban-worker/SKILL.md` (sensitive-content)
 - `skills/devops/kanban-orchestrator/SKILL.md` (sensitive-content)
-- `skills/data-science/jupyter-live-kernel/SKILL.md` (sensitive-content)
 - `skills/software-development/software-development-workflow/SKILL.md` (sensitive-content)
 - `skills/software-development/software-development-workflow/references/local-docker-app-evaluation.md` (sensitive-content)
 - `skills/software-development/secrets-management/SKILL.md` (sensitive-name)
 - `skills/software-development/secrets-management/references/remote-docker-agent-audit.md` (sensitive-name)
 - `skills/software-development/secrets-management/references/composio-mcp-secrets.md` (sensitive-name)
-- `skills/software-development/simplify-code/SKILL.md` (sensitive-content)
 - `skills/mlops/evaluation/DESCRIPTION.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/SKILL.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/references/botfusions-shorts-draft-pipeline.md` (sensitive-content)
@@ -185,9 +183,12 @@ Skipped files: 1647
 - `skills/business/botfusions-brand-strategy/references/botfusions-brand-context.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/references/omnisocials-publishing.md` (sensitive-content)
 - `skills/business/botfusions-brand-strategy/references/omni-socials-publishing.md` (sensitive-content)
+- `skills/.curator_backups/2026-06-20T19-33-42Z/cron-jobs.json` (sensitive-content)
+- `skills/.curator_backups/2026-06-20T19-33-42Z/skills.tar.gz` (binary-ext)
 - `skills/.curator_backups/2026-06-13T19-29-25Z/cron-jobs.json` (sensitive-content)
 - `skills/.curator_backups/2026-06-13T19-29-25Z/skills.tar.gz` (binary-ext)
 - `skills/github/github-operations/SKILL.md` (sensitive-content)
+- `skills/github/github-operations/references/cr-feedback-apply-workflow.md` (sensitive-content)
 - `skills/github/gungor-github-mail-ops/SKILL.md` (sensitive-content)
 - `skills/github/gungor-github-mail-ops/references/cron-output-size-and-broken-pipe.md` (sensitive-content)
 - `skills/github/gungor-github-mail-ops/references/safe-fix-boundaries.md` (sensitive-content)
@@ -201,29 +202,7 @@ Skipped files: 1647
 - `skills/red-teaming/godmode/scripts/parseltongue.py` (sensitive-content)
 - `skills/creative/ui-ux-pro-max/SKILL.md` (sensitive-content)
 - `skills/creative/ui-ux-pro-max/references/open-design-premium-landing-artifacts.md` (sensitive-content)
-- `skills/creative/comfyui/SKILL.md` (sensitive-content)
-- `skills/creative/comfyui/references/official-cli.md` (sensitive-content)
-- `skills/creative/comfyui/references/template-integrity.md` (sensitive-content)
-- `skills/creative/comfyui/references/rest-api.md` (sensitive-content)
-- `skills/creative/comfyui/tests/conftest.py` (sensitive-content)
-- `skills/creative/comfyui/tests/test_common.py` (sensitive-content)
-- `skills/creative/comfyui/tests/test_cloud_integration.py` (sensitive-content)
-- `skills/creative/comfyui/tests/pytest.ini` (sensitive-content)
-- `skills/creative/comfyui/tests/test_run_workflow.py` (sensitive-content)
-- `skills/creative/comfyui/tests/README.md` (sensitive-content)
-- `skills/creative/comfyui/workflows/README.md` (sensitive-content)
-- `skills/creative/comfyui/scripts/fetch_logs.py` (sensitive-content)
-- `skills/creative/comfyui/scripts/check_deps.py` (sensitive-content)
-- `skills/creative/comfyui/scripts/_common.py` (sensitive-content)
-- `skills/creative/comfyui/scripts/ws_monitor.py` (sensitive-content)
-- `skills/creative/comfyui/scripts/run_batch.py` (sensitive-content)
-- `skills/creative/comfyui/scripts/auto_fix_deps.py` (sensitive-content)
-- `skills/creative/comfyui/scripts/health_check.py` (sensitive-content)
-- `skills/creative/comfyui/scripts/run_workflow.py` (sensitive-content)
 - `skills/creative/baoyu-infographic/SKILL.md` (sensitive-content)
-- `skills/creative/ascii-video/references/inputs.md` (sensitive-content)
-- `skills/creative/touchdesigner-mcp/references/replicator.md` (sensitive-content)
-- `skills/creative/touchdesigner-mcp/references/external-data.md` (sensitive-content)
 - `skills/creative/popular-web-designs/SKILL.md` (sensitive-content)
 - `skills/creative/popular-web-designs/templates/resend.md` (sensitive-content)
 - `skills/creative/popular-web-designs/templates/warp.md` (sensitive-content)
@@ -242,8 +221,6 @@ Skipped files: 1647
 - `skills/creative/popular-web-designs/templates/voltagent.md` (sensitive-content)
 - `skills/creative/popular-web-designs/templates/airtable.md` (sensitive-content)
 - `skills/creative/popular-web-designs/templates/hashicorp.md` (sensitive-content)
-- `skills/creative/pretext/templates/donut-orbit.html` (sensitive-content)
-- `skills/creative/p5js/references/export-pipeline.md` (sensitive-content)
 - `skills/.hub/index-cache/openai_skills_skills_.curated_.json` (sensitive-content)
 - `skills/.hub/index-cache/NVIDIA_skills_skills_.json` (sensitive-content)
 - `skills/.hub/index-cache/lobehub_index.json` (sensitive-content)
@@ -262,3 +239,26 @@ Skipped files: 1647
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-local-skill-injection.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-approval-softening.md` (sensitive-content)
 - `skills/autonomous-ai-agents/coding-agent-profiles/references/delegated-profile-skill-update.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/profile-folder-owner-agent.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/scripting-profile-calls.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/opendesign-mcp-docker.md` (sensitive-content)
+- `skills/autonomous-ai-agents/coding-agent-profiles/references/zai-glm-provider-quirks.md` (sensitive-content)
+- `skills/autonomous-ai-agents/agentic-self-improvement-loop/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/closed-loop-agent-fleet.md` (sensitive-content)
+- `skills/autonomous-ai-agents/agentic-self-improvement-loop/references/agentic-os-operator-console.md` (sensitive-content)
+- `skills/autonomous-ai-agents/agentic-self-improvement-loop/templates/agentic-program-template.md` (sensitive-content)
+- `skills/autonomous-ai-agents/monitoring-agent-profiles/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/monitoring-agent-profiles/references/connected-accounts-composio-sentinel.md` (sensitive-content)
+- `skills/autonomous-ai-agents/monitoring-agent-profiles/references/research-agent-xai-grok.md` (sensitive-content)
+- `skills/autonomous-ai-agents/monitoring-agent-profiles/references/research-agent-hakan-config.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-agent/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-agent/references/webhooks.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-agent/references/ecc-improvements.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hayri-analysis-router/references/glm-47-web-research-routing.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hayri-analysis-router/references/botfusions-brand-context.md` (sensitive-content)
+- `skills/dogfood/references/issue-taxonomy.md` (sensitive-content)
+- `skills/productivity/productivity-office-automation/SKILL.md` (sensitive-content)
+- `skills/media/media-content-production/references/ai-short-video-sample-first.md` (sensitive-content)
+- `pantheon/personas/claude-code.yaml` (sensitive-content)
+- `pantheon/personas/philosopher.yaml` (sensitive-content)

@@ -1,79 +1,83 @@
 ---
 name: turkce-insani-yazar
-description: "TDK imla kurallarına uygun, AI kalıplarından arındırılmış, doğal insani Türkçe metinler yazar. Türkçe yazı yazma, metin düzeltme, AI tonunu giderme veya imla kontrolü istendiğinde kullanılır. Sosyal medya, blog, makale içerikleri için optimize edilmiştir."
-argument-hint: [metin veya konu]
+description: "Writes natural, fluent Turkish text following TDK spelling rules and free of AI patterns. Use for Turkish text generation, correction, AI-tone removal, or spelling checks. Optimized for social media, blog, and article content."
+argument-hint: "[text or topic]"
 ---
 
-# Türkçe İnsani Yazar
+# Turkish Human Writer
 
-$ARGUMENTS için doğal, akıcı ve kurallara uygun Türkçe metin oluştur.
+Produce natural, fluent, rule-compliant Turkish text for $ARGUMENTS.
 
-## Hızlı Kurallar
+## Language Rule
+
+ALL output produced by this skill MUST be in Turkish. The instructions below are in English for consistency and searchability, but every piece of generated text must be written in natural, human-sounding Turkish.
+
+## Quick Spelling Rules
 
 ### de/da
-- **Bağlaç (ayrı):** "O da geldi", "Hem de güzel"
-- **Ek (bitişik):** "Ankara'da", "Evdeki"
-- **Test:** "ve" koyunca anlam bozulmuyorsa ayrı
+- **Conjunction (separate):** "O da geldi", "Hem de güzel"
+- **Suffix (joined):** "Ankara'da", "Evdeki"
+- **Test:** if substituting "ve" preserves meaning, write separately
 
 ### ki
-- **Bağlaç (ayrı):** "Biliyorum ki", "Öyle ki"
-- **Ek (bitişik):** "Seninki", "Dünkü"
+- **Conjunction (separate):** "Biliyorum ki", "Öyle ki"
+- **Suffix (joined):** "Seninki", "Dünkü"
 
 ### mi/mı/mu/mü
-- Her zaman **ayrı** yazılır
+- Always written **separately**
 
-### Kesme İşareti
-- Özel isimlere ek: "Ankara'da", "Atatürk'ün"
+### Apostrophe
+- Proper noun suffixes: "Ankara'da", "Atatürk'ün"
 
-### Unvanlar
-- **Büyük:** Cümle başında, tek başına: "Sayın Bey geldi"
-- **Küçük:** Cümle içinde isimden sonra: "Ahmet bey", "Ayşe hanım", "Mehmet efendi"
-- **Not:** TDK'ya göre "bey", "hanım" unvanları isimle kullanılırsa küçük harf ile yazılır
+### Titles
+- **Capitalized:** sentence-initial, standalone: "Sayın Bey geldi"
+- **Lowercase:** mid-sentence after a name: "Ahmet bey", "Ayşe hanım", "Mehmet efendi"
+- **Note:** per TDK, "bey" and "hanım" titles used with names are written lowercase
 
-## Yasaklı AI Kalıpları
+## Banned AI Patterns
 
-Bu ifadeleri asla kullanma:
+Never use these expressions:
 
-| Yasak | Yerine |
-|-------|--------|
-| "Günümüzde..." | Doğrudan başla |
-| "önemli bir konudur" | Neden önemli olduğunu açıkla |
-| "Özetle/sonuç olarak" | Doğal bitiş yap |
+| Banned | Replace with |
+|--------|-------------|
+| "Günümüzde..." | Start directly |
+| "önemli bir konudur" | Explain why it matters |
+| "Özetle/sonuç olarak" | End naturally |
 | "dikkat edilmesi gereken" | "Şuna dikkat et:" |
 | "yürütülmektedir" | "çalışıyoruz" |
 | "Öte yandan" | "Ama", "Fakat" |
-| "Şüphesiz/kuşkusuz" | Görüşünü net söyle |
-| "Gerçekten/hakikaten" | Nedenini açıkla |
+| "Şüphesiz/kuşkusuz" | State opinion clearly |
+| "Gerçekten/hakikaten" | Explain why |
 
-## İnsani Yazım
+## Human Writing Style
 
-**Kişilik kat:**
-- "Bence", "Sanırım" kullan
-- Görüşlerini net ifade et
-- Okuyucuyla doğrudan konuş
+**Add personality:**
+- Use "Bence", "Sanırım"
+- Express opinions clearly
+- Speak directly to the reader
 
-**Ritim:**
-- Kısa cümleler. Etkili olur.
-- Uzun cümleler ara sıra.
-- Çeşitlilik önemli.
+**Rhythm:**
+- Short sentences. They hit hard.
+- Long sentences occasionally.
+- Variety matters.
 
-**Belirsizliği kabul:**
+**Accept uncertainty:**
 - "Bu konuda emin değilim"
 - "Belki de haklısın"
 - "Cevabı tam bilmiyorum"
 
-## Anlatım Bozuklukları
+## Common Grammar Errors
 
-✗ "Bu sorular cevapsız bırakıldı" → ✓ "Bu sorular cevapsız kaldı"
-✗ "En optimum" → ✓ "Optimum"
-✗ "Kesinlikle belki" → ✓ "Belki"
-✗ "Görüş ve fikir" → ✓ "Görüş"
+✗ "Bu sorular cevapsız bırakıldı" -> ✓ "Bu sorular cevapsız kaldı"
+✗ "En optimum" -> ✓ "Optimum"
+✗ "Kesinlikle belki" -> ✓ "Belki"
+✗ "Görüş ve fikir" -> ✓ "Görüş"
 
-## Formatlar
+## Output Formats
 
-**Sosyal Medya:** Kısa, ilk cümle dikkat çekici, soru ile bitir
-**Blog:** Hikaye veya iddia ile başla, doğal geçişler
+**Social Media:** Short, punchy opening line, end with a question
+**Blog:** Open with a story or claim, use natural transitions
 
 ---
 
-Detaylı kurallar için: [references/imla-kurallari.md](references/imla-kurallari.md)
+For detailed rules: [references/imla-kurallari.md](references/imla-kurallari.md)

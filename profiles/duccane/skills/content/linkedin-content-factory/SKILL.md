@@ -1,6 +1,6 @@
 ---
 name: linkedin-content-factory
-description: "Botfusions için Türkçe LinkedIn odaklı günlük içerik paketi üretir: blog taslağı, 3 LinkedIn postu ve 1 e-posta taslağı. Yayın yapmaz; Cenk'in manuel onayına hazırlar."
+description: "Produces a daily Turkish content pack for Botfusions: blog draft, 3 LinkedIn posts, and 1 email draft. No publishing; prepares for manual review."
 version: 1.0.0
 author: Hermes Agent
 platforms: [macos]
@@ -12,21 +12,25 @@ metadata:
 
 # LinkedIn Content Factory
 
+## Language Rule
+
+ALL output produced by this skill MUST be in Turkish. The instructions below are in English for consistency and searchability, but every piece of generated content must be written in Turkish.
+
 ## Mission
 
-Botfusions için düşük maliyetli, düzenli ve LinkedIn odaklı Türkçe içerik paketleri üretmek.
+Produce low-cost, consistent, LinkedIn-focused Turkish content packs for Botfusions.
 
 ## Protocol
 
-1. **Pillar seç:** İçeriği şu eksenlerden birine bağla: GEO, AI-ready web, agentic AI, dijital çalışanlar, schema/AI görünürlüğü, ölçümleme.
-2. **LinkedIn hedefini belirle:** Okuyucu C-level, KOBİ sahibi, pazarlama lideri veya teknik karar verici olabilir. Metni buna göre sadeleştir.
-3. **Günlük paket üret:**
-   - 1 blog/makale taslağı: 500-700 kelime.
-   - 3 LinkedIn post taslağı: her biri tek fikir, güçlü ilk satır, 900-1.600 karakter arası.
-   - 1 kısa e-posta taslağı: konu satırı + 120-180 kelime.
-4. **Post yapısını uygula:** Hook → kullanım alanı → sonuç/fayda → doğal CTA.
-5. **Türkçe polish yap:** `turkce-insani-yazar` kurallarına göre AI kalıplarını temizle.
-6. **Yayın güvenliği:** Sonunda kısa bir “Yayın Notu” ekle: hangi post LinkedIn için en güçlü, ne görsel gerekir, hangi iddia doğrulanmalı.
+1. **Pick a pillar:** Connect content to one of these axes: GEO, AI-ready web, agentic AI, digital workers, schema/AI visibility, measurement.
+2. **Define LinkedIn target:** Reader may be C-level, SMB owner, marketing leader, or technical decision-maker. Adjust language accordingly.
+3. **Produce the daily pack:**
+   - 1 blog/article draft: 500-700 words.
+   - 3 LinkedIn post drafts: each with a single idea, strong opening line, 900-1,600 characters.
+   - 1 short email draft: subject line + 120-180 words.
+4. **Apply post structure:** Hook -> use case -> result/benefit -> natural CTA.
+5. **Turkish polish:** Clean AI patterns following the `turkce-insani-yazar` skill rules.
+6. **Publish safety:** End with a short "Publish Note": which post is strongest for LinkedIn, what visual is needed, which claim should be verified.
 
 ## Output Format
 
@@ -65,10 +69,10 @@ Konu: ...
 
 ## Rules
 
-- Türkçe yaz.
-- LinkedIn hedefli yaz; X dili kullanma.
-- Yayınlama, tıklama, hesap otomasyonu veya LinkedIn scraping yapma.
-- Sahte veri, sahte müşteri sonucu, uydurma istatistik veya uydurma kaynak kullanma.
-- Gerekiyorsa “varsayım” veya “örnek ifade” diye açıkça belirt.
-- Botfusions'ı abartılı vaatlerle değil; ölçülebilir, güven veren danışmanlık diliyle konumlandır.
-- Her çıktıda tek bir ana fikir olsun; karmaşık kavramları karar vericinin anlayacağı dile indir.
+- Write all content output in Turkish.
+- Write for LinkedIn; do not use X/Twitter tone.
+- Do not publish, click, automate accounts, or scrape LinkedIn.
+- Do not use fake data, fake customer results, fabricated statistics, or made-up sources.
+- If needed, explicitly label as "assumption" or "example statement."
+- Position Botfusions with measurable, trust-building consulting language — not exaggerated promises.
+- Each output should carry one main idea; reduce complex concepts to decision-maker language.
