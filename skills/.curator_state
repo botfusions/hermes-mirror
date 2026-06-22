@@ -3,7 +3,7 @@
   "last_run_at": "2026-06-20T19:33:42.623276+00:00",
   "last_run_duration_seconds": 1387.420706,
   "last_run_summary": "auto: no changes; llm: Everything is verified. The pass is complete. Here's the summary:\n\n---\n\n## Umbrella-Building Consolidation Pass — Summary\n\n### Cluster Analysis\n\n**1. Monitoring/Research Agent Cluster** (CONSOLIDATED)\n- `ai-research-agent` (activity=47, 7 r…\narchived 11 skill(s):\n  • ai-research-agent — pruned (stale)\n  • ascii-video — pruned (stale)\n  • comfyui — pruned (stale)\n  • connected-account-agents — pruned (stale)\n  • jupyter-live-kernel — pruned (stale)\n  • manim-video — pruned (stale)\n  • openhue — pruned (stale)\n  • p5js — pruned (stale)\n  • pretext — pruned (stale)\n  • simplify-code — pruned (stale)\n  … and 1 more\nfull report: hermes curator status",
-  "last_run_summary_shown_at": "2026-06-13T19:29:25.021142+00:00",
+  "last_run_summary_shown_at": "2026-06-20T19:33:42.623276+00:00",
   "paused": false,
   "run_count": 2
 }

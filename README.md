@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-21T09:30:17
+Generated: 2026-06-22T09:30:27
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2906
-Skipped files: 1632
+Copied files: 2930
+Skipped files: 1644
 
 ### Skipped examples / reasons
 
@@ -200,6 +200,8 @@ Skipped files: 1632
 - `skills/red-teaming/godmode/scripts/auto_jailbreak.py` (sensitive-content)
 - `skills/red-teaming/godmode/scripts/godmode_race.py` (sensitive-content)
 - `skills/red-teaming/godmode/scripts/parseltongue.py` (sensitive-content)
+- `skills/composio-gmail-cli/SKILL.md` (sensitive-content)
+- `skills/composio-gmail-cli/references/auth-setup.md` (sensitive-name)
 - `skills/creative/ui-ux-pro-max/SKILL.md` (sensitive-content)
 - `skills/creative/ui-ux-pro-max/references/open-design-premium-landing-artifacts.md` (sensitive-content)
 - `skills/creative/baoyu-infographic/SKILL.md` (sensitive-content)
@@ -257,8 +259,6 @@ Skipped files: 1632
 - `skills/autonomous-ai-agents/hermes-agent/references/ecc-improvements.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hayri-analysis-router/references/glm-47-web-research-routing.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hayri-analysis-router/references/botfusions-brand-context.md` (sensitive-content)
-- `skills/dogfood/references/issue-taxonomy.md` (sensitive-content)
-- `skills/productivity/productivity-office-automation/SKILL.md` (sensitive-content)
-- `skills/media/media-content-production/references/ai-short-video-sample-first.md` (sensitive-content)
-- `pantheon/personas/claude-code.yaml` (sensitive-content)
-- `pantheon/personas/philosopher.yaml` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-system-audit/SKILL.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-system-audit/references/hermes-v016-command-reality.md` (sensitive-content)
+- `skills/autonomous-ai-agents/hermes-system-audit/references/composio-mcp-setup.md` (sensitive-content)
