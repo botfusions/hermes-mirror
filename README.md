@@ -2,7 +2,7 @@
 
 Private, secrets-free mirror of portable Hermes configuration for restoring on a new machine.
 
-Generated: 2026-06-22T09:30:27
+Generated: 2026-06-23T09:30:46
 Source: `~/.hermes/`
 Local mirror: `~/code/hermes-mirror/`
 Remote: `https://github.com/botfusions/hermes-mirror.git`
@@ -57,8 +57,8 @@ The real values are not stored here. Re-add them manually when needed:
 
 ## Last sync summary
 
-Copied files: 2930
-Skipped files: 1644
+Copied files: 2952
+Skipped files: 1655
 
 ### Skipped examples / reasons
 
@@ -201,7 +201,9 @@ Skipped files: 1644
 - `skills/red-teaming/godmode/scripts/godmode_race.py` (sensitive-content)
 - `skills/red-teaming/godmode/scripts/parseltongue.py` (sensitive-content)
 - `skills/composio-gmail-cli/SKILL.md` (sensitive-content)
+- `skills/composio-gmail-cli/references/mcp-transport-failures.md` (sensitive-content)
 - `skills/composio-gmail-cli/references/auth-setup.md` (sensitive-name)
+- `skills/composio-gmail-cli/references/env-sourcing-trap.md` (sensitive-content)
 - `skills/creative/ui-ux-pro-max/SKILL.md` (sensitive-content)
 - `skills/creative/ui-ux-pro-max/references/open-design-premium-landing-artifacts.md` (sensitive-content)
 - `skills/creative/baoyu-infographic/SKILL.md` (sensitive-content)
@@ -260,5 +262,3 @@ Skipped files: 1644
 - `skills/autonomous-ai-agents/hayri-analysis-router/references/glm-47-web-research-routing.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hayri-analysis-router/references/botfusions-brand-context.md` (sensitive-content)
 - `skills/autonomous-ai-agents/hermes-system-audit/SKILL.md` (sensitive-content)
-- `skills/autonomous-ai-agents/hermes-system-audit/references/hermes-v016-command-reality.md` (sensitive-content)
-- `skills/autonomous-ai-agents/hermes-system-audit/references/composio-mcp-setup.md` (sensitive-content)
